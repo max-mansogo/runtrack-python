@@ -5,7 +5,7 @@ def type_triangle(a, b, c):
     elif a == b or b == c or a == c:
         return "isocèle"
     else:
-        return "quelconque"
+        
 
 def est_triangle(a, b, c):
     return a + b > c and b + c > a and a + c > b
